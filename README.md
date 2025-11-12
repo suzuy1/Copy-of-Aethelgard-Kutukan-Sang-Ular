@@ -1,94 +1,115 @@
-# Copy of Aethelgard: Kutukan Sang Ular
+# Salinan Aethelgard: Kutukan Sang Ular
 
-This project is a React application built with Vite and TypeScript, designed to showcase various sections of a fictional world named Aethelgard. It features interactive UI components and visual effects to create an immersive experience.
+Proyek ini adalah aplikasi React yang dibangun dengan Vite dan TypeScript, dirancang untuk menampilkan berbagai bagian dari dunia fiksi bernama Aethelgard. Proyek ini memiliki komponen UI interaktif dan efek visual untuk memperkaya pengalaman pengguna.
 
-## Table of Contents
+## Daftar Isi
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Fitur](#fitur)
+- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
+- [Memulai](#memulai)
+  - [Prasyarat](#prasyarat)
+  - [Instalasi](#instalasi)
+  - [Variabel Lingkungan](#variabel-lingkungan)
+- [Script yang Tersedia](#script-yang-tersedia)
+- [Struktur Proyek](#struktur-proyek)
+- [Kontribusi](#kontribusi)
+- [Lisensi](#lisensi)
 
-## Features
+## Fitur
 
-- **Dynamic Sections:** Includes dedicated sections for Hero, Features, Lore, World, Characters, Bestiary, Media Gallery, and Call to Action.
-- **Interactive UI:** Utilizes various React components for a rich user experience.
-- **Visual Effects:** Incorporates background effects such as particles, rain, stars, and wind to enhance the aesthetic.
-- **Responsive Design:** (Assumed, based on modern web development practices and component-based structure)
-- **Scroll-to-Top Button:** For easy navigation.
+- **Bagian Dinamis:** Termasuk bagian khusus untuk Hero, Fitur, Lore, Dunia, Karakter, Bestiary, Galeri Media, dan Ajakan Bertindak.
+- **UI Interaktif:** Menggunakan berbagai komponen React untuk pengalaman pengguna yang kaya.
+- **Efek Visual:** Menggabungkan efek latar seperti partikel, hujan, bintang, dan angin untuk meningkatkan estetika.
+- **Desain Responsif:** (Diasumsikan, berdasarkan praktik pengembangan web modern dan struktur berbasis komponen)
+- **Tombol Scroll ke Atas:** Memudahkan navigasi.
 
-## Technologies Used
+## Teknologi yang Digunakan
 
-- **React 19.2.0:** A JavaScript library for building user interfaces.
-- **TypeScript 5.8.2:** A superset of JavaScript that adds static types.
-- **Vite 6.2.0:** A fast build tool and development server.
-- **React DOM 19.2.0:** Entry point to the DOM and server renderers for React.
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>
+      <br /><b>React 19.2.0</b>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
+      <br /><b>TypeScript 5.8.2</b>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg" alt="Vite" width="40" height="40"/>
+      <br /><b>Vite 6.2.0</b>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React DOM" width="40" height="40"/>
+      <br /><b>React DOM 19.2.0</b>
+    </td>
+  </tr>
+</table>
 
-## Getting Started
+- **React**: Library JavaScript untuk membangun antarmuka pengguna.
+- **TypeScript**: Superset dari JavaScript yang menambahkan tipe statis.
+- **Vite**: Alat build dan server pengembangan yang cepat.
+- **React DOM**: Titik masuk ke DOM dan renderer server untuk React.
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+## Memulai
 
-### Prerequisites
+Ikuti instruksi berikut untuk mendapatkan salinan proyek dan menjalankannya di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
 
-Before you begin, ensure you have the following installed:
+### Prasyarat
 
--   Node.js (LTS version recommended)
--   npm (comes with Node.js) or Yarn
+Sebelum memulai, pastikan Anda telah menginstal:
 
-### Installation
+-   Node.js (disarankan versi LTS)
+-   npm (sudah termasuk dalam Node.js) atau Yarn
 
-1.  **Clone the repository:**
+### Instalasi
+
+1.  **Klon repositori:**
     ```bash
     git clone https://github.com/suzuy1/Copy-of-Aethelgard-Kutukan-Sang-Ular.git
     cd copy-of-aethelgard_-kutukan-sang-ular
     ```
-2.  **Install dependencies:**
+2.  **Instal dependensi:**
     ```bash
     npm install
-    # or
+    # atau
     yarn install
     ```
 
-### Environment Variables
+### Variabel Lingkungan
 
-This project uses environment variables, specifically `GEMINI_API_KEY`. You need to create a `.env` file in the root of the project and add your Gemini API key:
+Proyek ini menggunakan variabel lingkungan, khususnya `GEMINI_API_KEY`. Anda perlu membuat file `.env` di root proyek dan tambahkan API key Gemini Anda:
 
 ```
-GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=masukkan_gemini_api_key_anda_di_sini
 ```
 
-## Available Scripts
+## Script yang Tersedia
 
-In the project directory, you can run:
+Di direktori proyek, Anda dapat menjalankan:
 
 -   **`npm run dev`**
-    Runs the app in development mode.
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-    The page will reload if you make edits. You will also see any lint errors in the console.
+    Menjalankan aplikasi dalam mode pengembangan.
+    Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihatnya.
+    Halaman akan memuat ulang jika Anda melakukan perubahan. Anda juga akan melihat error lint di konsol.
 
 -   **`npm run build`**
-    Builds the app for production to the `dist` folder.
-    It correctly bundles React in production mode and optimizes the build for the best performance.
+    Membuat build aplikasi untuk produksi di folder `dist`.
+    Build akan mengoptimalkan React dan performa aplikasi.
 
 -   **`npm run preview`**
-    Serves the `dist` folder locally for a production preview.
+    Menyajikan folder `dist` secara lokal untuk pratinjau produksi.
 
-## Project Structure
+## Struktur Proyek
 
-The project follows a standard React application structure:
+Proyek mengikuti struktur standar aplikasi React:
 
 ```
 .
 ├── public/
 ├── src/
-│   ├── components/             # Reusable UI components and visual effects
-│   │   ├── icons/              # SVG icons or icon components
+│   ├── components/             # Komponen UI yang dapat digunakan ulang & efek visual
+│   │   ├── icons/              # SVG icon atau komponen ikon
 │   │   ├── BestiarySection.tsx
 │   │   ├── CharacterSection.tsx
 │   │   ├── CtaSection.tsx
@@ -107,22 +128,22 @@ The project follows a standard React application structure:
 │   │   ├── Tooltip.tsx
 │   │   ├── WindEffect.tsx
 │   │   └── WorldSection.tsx
-│   ├── App.tsx                 # Main application component
-│   └── index.tsx               # Entry point for the React application
-├── .gitignore                  # Specifies intentionally untracked files to ignore
-├── index.html                  # Main HTML file
-├── metadata.json               # Project metadata
-├── package.json                # Project dependencies and scripts
-├── package-lock.json           # Records the exact versions of dependencies
-├── README.md                   # This file
-├── tsconfig.json               # TypeScript configuration
-└── vite.config.ts              # Vite build configuration
+│   ├── App.tsx                 # Komponen aplikasi utama
+│   └── index.tsx               # Entry point aplikasi React
+├── .gitignore                  # File yang diabaikan oleh git
+├── index.html                  # File HTML utama
+├── metadata.json               # Metadata proyek
+├── package.json                # Dependensi dan script proyek
+├── package-lock.json           # Versi pasti dari dependensi
+├── README.md                   # File ini
+├── tsconfig.json               # Konfigurasi TypeScript
+└── vite.config.ts              # Konfigurasi build Vite
 ```
 
-## Contributing
+## Kontribusi
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+Kontribusi sangat diterima! Silakan ajukan pull request atau buka issue.
 
-## License
+## Lisensi
 
-(Specify your project's license here, e.g., MIT, Apache 2.0, etc.)
+(Silakan tentukan lisensi proyek Anda di sini, misal MIT, Apache 2.0, dll.)
